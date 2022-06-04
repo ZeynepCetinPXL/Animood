@@ -1,0 +1,288 @@
+/* Header */
+
+.productpagina__div__achtergrond{
+    background-image: url("../assets/product/product_pagina_poot.png");
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    background-position: left;
+}
+
+.productpagina__image__top{
+    margin-top: auto;
+    margin-bottom: auto;
+} 
+
+.productpagina__image{
+    align-items: center;
+    margin-top: 25%;
+    margin-bottom: 30%;
+}
+
+.productpagina__col__left{
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.productpagina__col__right{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.productpagina__col__gap{
+    gap: 10%;
+}
+
+.productpagina__buttons {
+    background-color: RGB(255, 227, 175);
+    border: 1px solid #ABCAC1;
+    border-radius: 10px;
+    width: 15%;
+    height: 15%;
+}
+
+.productpagina__buttons__top{
+    float:left;
+    margin-right:5px;
+    background-color: RGB(255, 227, 175);
+    border: 1px solid #ABCAC1;
+    border-radius: 10px;
+    width: 40%;
+    height: 10%;
+}
+
+.productpagina__buttons__blauw{
+    background-color: RGB(158, 188, 201);
+    border: 1px solid #ABCAC1;
+    border-radius: 10px;
+    width: 15%;
+    height: 15%;
+}
+
+/* Features */
+
+.productpagina__h1__features{
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+.productpagina__container__features{
+    background-image: url("../assets/product/LightBluePaws.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+
+.productpagina__image__features{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.productpagina__img__features{
+    border: none;
+}
+
+.productpagina__row__spatie{
+    margin-bottom: 15%;
+}
+
+.productpagina__feature{
+    margin-top: 20%;
+    margin-bottom: auto;
+}
+
+/* Applicatie */
+.productpagina__jumbotron__app{
+    background-color: white;
+}
+
+.productpagina__image__applicatie{
+    width: 70%;
+    height: 100%;
+    margin-left: 25%;
+}
+
+/*strips */
+
+.productpagina__image__strips{
+    width: 400px;
+    height: 320px;
+}
+
+.productpagina__container__strips__links{
+    display: flex;
+    background-color: #D8E9F1;
+    margin-right: 15%;
+    border-radius: 50px 50px;
+}
+
+.productpagina__container__strips__rechts{
+    display: flex;
+    margin-top: 4%;
+    background-color: #FFE4B0;
+    margin-left: 15%;
+    margin-bottom: 3%;
+    border-radius: 50px 50px;
+}
+
+.productpagina__image__strips__links{
+    width: 100%;
+    height: 100%;
+    margin-left: -10%;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.productpagina__image__strips__rechts{
+    height: 100%;
+    width: auto;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.productpagina__div__middel__links{
+    text-align: left;
+    padding-bottom: 4%;
+    padding-top: 4%; 
+    padding-right: 10%;    
+    padding-left: 0;                                                                                                                                                                              
+}
+
+.productpagina__div__middel__rechts{
+    text-align: right;
+    padding-bottom: 4%;
+    padding-top: 4%; 
+    padding-right: 3%;
+    padding-left: 10%;                                                                                                                                                                    
+}
+
+/*Abonomenten*/
+.productpagina__table_abonementen{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EBF4F8;
+    border-radius: 30px;
+}
+
+.productdetails__row__abonnementen{
+    text-align: center;
+    padding: 1%;
+}
+
+.productpagina__image__abbonementen{
+    width: 200px;
+    height: 200px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+
+.productpagina__image__abbonementen_checkmark{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.productpagina__col__abbonementen__image{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.productpagina__table__abonementen{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#productpagina_button{
+    color: rgb(10, 245, 10);
+}
+
+/* Breakpoints*/
+@media (max-width: 768px) {
+    .productpagina__image__applicatie{
+        margin-left: 0;
+        margin-top: 75%;
+        margin-bottom: auto;
+        width: auto;
+        height: 65%;
+    }
+
+    .productpagina__div__achtergrond{
+        background-image: url("../assets/product_pagina_poot.png");
+        background-repeat: no-repeat;
+        background-size: 110% 100%;
+        background-position: left;
+    }
+
+    .productpagina__image__top{
+        height: 450px;
+        width: auto;
+    }
+
+    .productpagina__buttons__top{
+        width:45%;
+        height: 10%;
+        float: left;
+    }
+
+    .productpagina__image__strips__links{
+        visibility: hidden;
+    }
+
+    .productpagina__image__strips__rechts{
+        visibility: hidden;
+    }
+
+    .productpagina__container__links{
+        visibility: hidden;
+    }
+
+    .productpagina__div__middel__links{
+        margin-left: -25%;
+    }
+
+    .productpagina__div__middel__rechts{
+        margin-right: -25%;
+        padding-right: 0;
+    }
+
+    .productpagina__container__strips__links{
+        border-radius: 0px 50px 50px 0px;
+    }
+
+    .productpagina__container__features{
+        background-size: 30% 85%;
+    }
+
+    .productpagina__image__abbonementen{
+        width: 130px;
+        height: 130px;
+        margin-right: 0;
+        margin-left: 13%;
+    }
+
+    .productpagina__container__strips__rechts{
+        border-radius: 50px 0px 0px 50px;
+    }
+  }
+
+@media (max-width: 480px) {
+    .productpagina__image__applicatie{
+        width: 0;
+        height: 0;
+    }
+
+    .productpagina__div__achtergrond{
+        background-image: url("../assets/product_pagina_poot.png");
+        background-size: 0;
+    }
+
+    .productpagina__image{
+        visibility: hidden;
+    } 
+
+    .productdetails__col__right{
+        display:none;
+    }
+
+    .productpagina__col__left{
+        padding: 0;
+    }
+}

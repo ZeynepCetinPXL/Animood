@@ -1,0 +1,117 @@
+/*BGafbeelding*/
+body, html{
+    overflow-x: hidden;
+}
+/* v professionele code v */
+/*img#contact__bgimage {*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*    margin-top: -45%;*/
+/*}*/
+.contact__input {
+    border-radius: 10px;
+    margin-bottom: 5%;
+    width: 75%;
+    background-color: #1a294b;
+    opacity: 50%;
+    color: #fff;
+}
+input#contact__contactbutton {
+    margin-top: 20px;
+    background-color: #ffe3af;;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    opacity: 100%;
+    transition-duration: 0.4s;
+    padding: 5px;
+    width: 50%;
+}
+input#contact__contactbutton:hover {
+    background-color: #fec652;
+}
+#contact__textarea {
+    height: 220px;
+    border-radius: 10px;
+    width: 75%;
+    background-color: #1a294b;
+    opacity: 50%;
+    color: #fff;
+}
+#contact__main{
+    background-image: url("../assets/contact/PersonWalking.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+#contact__volledigemainpagina {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 20%;
+}
+#contact__gegevens{
+    display: flex;
+    flex-direction: column;
+
+}
+.contact__lijn__onder__contactgegevens {
+    width: 5%;
+}
+.contact__icoon{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 2em 0;
+}
+.contact__icoon p{
+    margin: 0;
+    padding: 0;
+}
+.contact__icoon img{
+    margin-right: 5%;
+    padding: 0;
+}
+.contact__labels {
+    display: block;
+}
+#contact__gegevens {
+    margin-top: 8%;
+}
+.contact__socialemediaiconen {
+    margin: 0 2%;
+}
+@media screen and (max-width: 1200px) {
+    img#contact__bgimage {
+        width: 100%;
+        height: auto;
+        margin-top: -80%;
+    }
+    #contact__main{
+        background-image: none;
+    }
+}
+@media screen and (max-width: 1000px) {
+    #contact__main{
+        /*background-image: none;*/
+    }
+    .contact__icoon {
+        margin: 1em 0;
+    }
+}
+@media screen and (max-width: 500px){
+    input, main textarea, input#contact__contactbutton {
+        width: 100%;
+    }
+    #contact__main {
+        align-content: center;
+    }
+    .contact__socialemediaiconen, p#contact__folowus_responsivehidden {
+        display: none;
+    }
+    #contact__main {
+        /*background-image: url("../assets/BackgroundPaws.png"); !* Optional? *!*/
+        /*background-size: cover;*/
+    }
+}

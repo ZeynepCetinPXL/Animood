@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/winkelwagen.css">
+  <link rel="stylesheet" href="https://use.typekit.net/xrl4jyf.css">
+
+  <script src="javascript/winkelwagen.js" async></script>
+
+
+  <script src="bootstrap/jquery-3.5.1.min.js"></script>
+  <script src="bootstrap/bootstrap.min.js"></script>
+
+  <title>Bestelprocedure</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="d-flex flex-grow-1">
+      <span class="w-100 d-lg-none d-block"></span>
+      <a class="navbar-brand" href="index.html">
+        <img class="navbar__image" src="assets/navigatiebalk__logo.png" alt="LogoAnimood" loading="lazy">
+      </a>
+      <div class="w-100 text-right navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar__links" id="navbar__toggle">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="collapse navbar-collapse flex-grow-1 text-right lettertype__lipa__navbar" id="navbar__links">
+      <ul class="navbar-nav ml-auto flex-nowrap">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link m-2 menu-item nav-active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="productdetails.html" class="nav-link m-2 menu-item">Product</a>
+        </li>
+        <li class="nav-item">
+          <a href="overons.html" class="nav-link m-2 menu-item">Over ons</a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link m-2 menu-item">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="navbar-brand" href="inlogpagina.html">
+            <img src="assets/bootstrap-icons-1.8.1/person-fill.svg" width="25" height="25" alt="" loading="lazy">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="navbar-brand" href="winkelwagen.html">
+            <img src="assets/bootstrap-icons-1.8.1/cart-fill.svg" width="25" height="25" alt="winkelwagen" loading="lazy">
+            <span class="navbar__cart">0</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div>
+      <div class="text-center" id="winkelwagen__hoofdtitel">
+        <h1 class="lettertype_moret_big">Bestelprocedure</h1>
+      </div>
+
+      <div class="container-fluid" id="winkelwagen__container">
+
+        <div class="row justify-content-around" id="winkelwagen__container__gap">
+
+          <div class="col"  id="winkelwagen__kader__vol">
+
+            <div class="d-flex flex-row">
+              <a href="winkelwagen.html" class="btn lettertype_lipa_agate_low_regular" id="winkelwagen__button__terug">Terug naar winkelwagentje</a>
+            </div>
+
+
+
+            <div class="text-center">
+              <h1 class="lettertype_moret_regular display-4">Betaalmethode</h1>
+            </div>
+
+            <div class="d-flex flex-wrap lettertype_moret_regular justify-content-around">
+
+              <div class="m-5 text-center">
+                <p> Gelieve de QR code te scannen!</p>
+                <img src="assets/winkelwagen/QrCode.png" alt="QR code" loading="lazy">
+              </div>
+
+              <div class="align-self-center m-5">
+                <p > OR </p>
+              </div>
+
+              <div class="m-5">
+
+                <div class="text-center">
+                  <p>Betaal met kaart</p>
+                </div>
+
+                <form>
+
+                  <div class="form-group">
+                    <label for="kaartnummer">Kaart nummer</label>
+                    <input type="text" name="kaartnummer" id="kaartnummer" class="bestelprocedure__velden__kaart  form-control" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="kaarthouder">Kaart houder</label>
+                    <input type="text" name="kaartnummer" id="kaarthouder" class="bestelprocedure__velden__kaart  form-control" required>
+                  </div>
+
+                  <div class="d-flex flex-row justify-content-between ">
+                    <div class="form-group">
+                      <label for="vervaldatum">Vervaldatum</label>
+                      <input type="text" name="kaartnummer" id="vervaldatum" class="bestelprocedure__veld__cvc  form-control"  placeholder="MM/YY" required>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="cvc">CVC</label>
+                      <input type="text" name="kaartnummer" id="cvc" class="bestelprocedure__veld__cvc  form-control" required>
+                    </div>
+                  </div>
+
+                  <div>
+                    <button type="submit" id="winkelwagen__button__betaal">Betaal</button>
+                  </div>
+
+                </form>
+              </div>
+
+            </div>
+
+            <div class="lettertype_moret_regular" hidden>
+              <div class="winkelwagen__product__item__Vol">
+                <div class="d-flex flex-row justify-content-around">
+                  <div class="p-2">
+                    <h1 id="winkelwagen__naam__item"> </h1>
+                  </div>
+                  <div class="d-flex flex-row">
+                    <div class="winkelwagen__aantal__hoeveelheid__container p-2">
+                      <h1 id="winkelwagen__aantal__hoeveelheid"> </h1>
+                    </div>
+                  </div>
+                  <div class="p-2">
+                    <h1 id="winkelwagen__totaalprijs"> </h1>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="lettertype_moret_regular">
+            <div class="winkelwagen__besteloverzicht">
+              <div class=" col text-center" id="winkelwagen__kader__prijs">
+
+                <div class="d-flex flex-column justify-content-center">
+                  <div class="bestelprocedure__text__besteloverzicht  lettertype_moret_regular display-4">Besteloverzicht</div>
+                </div>
+
+                  <div class="p-2" hidden>Totaal artikelen</div>
+                  <div class="p-2" id="winkelwagen__prijs__totaal" hidden> </div>
+                  <div class="p-2" hidden>Verzendkosten</div>
+                  <div class="p-2" id="winkelwagen__verzendkosten" hidden> </div>
+
+                <div class="bestelprocedure__totaalprijs d-flex flex-row justify-content-between h2 ">
+                  <div class="p-2">Totaalprijs</div>
+                  <div class="p-2" id="bestelprocedure__totaalprijs__artikelen"> </div>
+                </div>
+
+                <hr id="winkelwagen__lijn">
+
+                <div class="d-flex flex-column justify-content-center">
+                  <div>
+                    <img src="assets/winkelwagen/DogBox.gif" id="winkelwagen__afbeelding__hond" alt="dogBoxGif" >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+
+  <footer id="footer" class="jumbotron text-center container-fluid">
+    <h1 class="lettertype_moret_bold">Meld u aan voor de Animood-nieuwsbrief </h1>
+    <p class="lettertype_lipa_agate_low_regular">Word lid van ons pakket voor geweldige updates. Krijg kortingen en tips voor ouders van huisdieren!</p>
+    <form>
+      <label for="footer__mailadres"></label>
+      <input id="footer__mailadres" name="mailadres" type="email" placeholder="E-mailadres">
+      <button class="btn lettertype_lipa_agate_low_regular" id="footer__button" type="submit" >Abonneer</button>
+    </form>
+    <div class="footer__icons">
+      <p class="lettertype_pacifico_regular" id="footer__media">Follow us on social media!</p>
+      <a href="https://www.facebook.com/"><img src="assets/bootstrap-icons-1.8.1/facebook.svg" width="30" alt="Icoon Facebook"></a>
+      <a href="https://www.instagram.com/animood4care/"><img src="assets/bootstrap-icons-1.8.1/instagram.svg" width="30" alt="Icoon Instagram"></a>
+      <a href="https://nl.linkedin.com/"><img  src="assets/bootstrap-icons-1.8.1/linkedin.svg" width="30" alt="Icoon Linkedin"></a>
+      <a href="https://twitter.com/?lang=nl"><img src="assets/bootstrap-icons-1.8.1/twitter.svg" width="30" alt="Icoon Twitter"></a>
+    </div>
+    <hr id="footer__winkelwagen__lijn">
+    <p>
+      Elfde-liniestraat 24, 3500 Hasselt <br>
+      tel. 011 77 55 55 <br>
+      animood4care@gmail.com
+    </p>
+    <p>© 2022 Animood. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,400 @@
+/* lettertypes */
+.lettertype__lipa__navbar {
+    font-family: lipa-agate-low, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.lettertype__lipa__algemenetekst {
+    font-family: lipa-agate-low, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.lettertype__lipa__14 {
+    font-family: lipa-agate-low, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.lettertype__lipa__18 {
+    font-family: lipa-agate-low, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.lettertype__lipa__h2 {
+    font-family: lipa-agate-low, serif;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.lettertype__moret__h1 {
+    font-family: moret, serif;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.lettertype__moret__h2 {
+    font-family: moret, serif;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.lettertype__moret__60 {
+    font-family: moret, serif;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.lettertype__moret__40 {
+    font-family: moret, serif;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.lettertype__moret__25 {
+    font-family: moret, serif;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.lettertype__pacifico_socialmedia {
+    font-family: Pacifico, serif;
+    font-style: normal;
+    font-size: 22px;
+}
+
+/* algemeen */
+.container-fluid {
+    max-width: 1920px;
+}
+
+*{
+    color: #1a294b;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 2px;
+}
+
+::-webkit-scrollbar-button{
+    background: #ffe3af;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #ffe3af;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #1a294b;
+}
+
+::-webkit-scrollbar-track{
+    background: white;
+}
+
+::-webkit-resizer{
+    background:rgba(0,0,0,0.0);
+}
+
+/*scrollbar*/
+::-webkit-scrollbar{
+    width: 10px;
+    height: 2px;
+}
+
+::-webkit-scrollbar-button{
+    border-radius: 5px;
+    background: #ffe3af;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #ffe3af;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #1a294b;
+}
+
+::-webkit-scrollbar-track{
+    background: white;
+}
+
+::-webkit-resizer{
+    background:rgba(0,0,0,0.0);
+}
+
+/* Navbar CSS */
+.navbar{
+    background-color: white;
+    height: 100px;
+}
+
+.navbar-brand {
+    position: relative;
+    top: 10%;
+}
+
+#navbar__links a{
+    color: #1a294b ;
+}
+
+#navbar__links a:hover{
+    opacity: 80%;
+    color: #1a294b;
+}
+
+.navbar__cart{
+    
+}
+
+/* Footer CSS */
+
+#footer__kleur {
+    background-color: #D8E9F1;
+    margin: 0 auto;
+}
+
+#footer {
+    bottom: 0;
+    margin: 2% auto 0 auto;
+    padding: 1% 0 0.10%;
+}
+
+#footer__h1, .footer__p, #footer button {
+    color: #192A4A;
+}
+
+#footer button {
+    margin-left: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: RGB(255, 227, 175);
+    border: 1px solid #ABCAC1;
+    border-radius: 10px;
+}
+
+#footer input {
+    border-radius: 10px;
+    border: 1px solid #707070;
+}
+
+#footer__form {
+    margin: auto auto 1%;
+    display: block;
+}
+
+#footer__mailadres {
+    width: 15%;
+    margin-left: 1%;
+    padding-left: 1%;
+    color: #5a6268;
+}
+
+#footer__socialmediadiv {
+    margin-top: 1.5%;
+}
+
+.footer__a__icons {
+    margin-right: 1%;
+}
+
+#footer__a__twitter {
+    margin-right: 0;
+}
+
+.footer__icons {
+    width: 30px;
+    padding: 2px;
+}
+
+#footer hr {
+    width: 95%;
+}
+
+#footer__copyright {
+    font-size: 14px;
+}
+
+/* Productdetails CSS */
+
+#productdetails__imagehalsband, #productdetails__extrainformatiediv, #productdetails__illustratie {
+    padding-top: 10%;
+    margin: auto;
+    display: block;
+}
+
+#productdetails__extrainformatiediv {
+    padding-top: 5%;
+}
+
+#productdetails__imagehalsband, #productdetails__illustratie {
+    padding-top: 5%;
+    width: 50%;
+}
+
+.productdetails__extrainformatieproduct {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.productdetails__iconenextrainfoproduct {
+    margin-bottom: 5%;
+}
+
+#productdetails__contactinformatie {
+    clear: both;
+    text-align: center;
+}
+
+#productdetails__nieuwproduct {
+    width: fit-content;
+    margin: 5% 0 0;
+    color: #FDC553;
+    font-weight: 700;
+}
+
+#productdetails__naamproduct {
+    margin: 0;
+}
+
+#productdetails__starreview {
+    margin-top: 1%;
+}
+
+.productdetails__starimage {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-right: 0.20%;
+}
+
+#productdetails__reviews {
+    margin: 0 0 0 15%;
+    width: fit-content;
+    display: block;
+    overflow: auto;
+    text-decoration-line: underline;
+}
+
+#productdetails__prijsproduct {
+    margin-top: 1%;
+}
+
+#productdetails__productbeschrijving {
+    margin-top: 5%;
+}
+
+.productdetails__productpersonalisatie {
+    margin-top: 5%;
+}
+
+.productdetails__select {
+    background-color: RGB(255, 227, 175, 0.5);
+    border: 1px solid #ABCAC1;
+    border-radius: 10px;
+    width: 30%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    padding: 16px;
+}
+
+#productdetails__divbutton {
+    display: flex;
+}
+
+.productdetails__buttons {
+    background-color: RGB(255, 227, 175);
+    border: 1px solid #ABCAC1;
+    border-radius: 10px;
+}
+
+.productdetails__disabledbuttons {
+    background-color: rgba(211, 211, 211, 0.2);
+    border-radius: 10px;
+    border: 1px solid #ABCAC1;
+    width: 18%;
+    min-width: 18%;
+    margin: 2% 5% 3% 0;
+    display: flex;
+    height: 80px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#productdetails__winkelwagenbutton button {
+    margin: 5% auto auto;
+    display: block;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1024px) {
+    #footer__mailadres {
+        width: 30%;
+    }
+
+    .productdetails__disabledbuttons {
+        width: 40%;
+    }
+
+    .productdetails__select {
+        width: 60%;
+        margin-top: 1%;
+    }
+
+    #productdetails__reviews {
+        padding-left: 3%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #footer__mailadres {
+        width: 35%;
+    }
+
+    #productdetails__imagehalsband, #productdetails__illustratie {
+        width: 100%;
+    }
+
+    #productdetails__imagehalsband {
+        position: relative;
+        top: 15%;
+    }
+
+    .productdetails__disabledbuttons {
+        width: 35%;
+    }
+
+    .productdetails__select {
+        width: 70%;
+        margin-top: 1%;
+    }
+
+    #productdetails__winkelwagenbutton button {
+        margin: 10% auto;
+        display: block;
+        padding-left: 2%;
+        padding-right: 2%;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #footer__mailadres {
+        width: 60%;
+    }
+
+    #productdetails__imagehalsband {
+        position: relative;
+        top: 0;
+    }
+}

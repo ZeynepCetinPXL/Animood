@@ -1,0 +1,86 @@
+/*algemeen*/
+.lettertypeMoretRegular{
+    font-family: moret, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lettertypeLipaAgateLowRegular{
+    font-family: lipa-agate-low,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lettertypeMoretBook{
+    font-family: moret,serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* code indexpage robbe*/
+article{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer{
+   background-color: #D8E9F1;
+}
+
+#verhaal{
+    background-image: url(../assets/Index/Imageplaceholderkopie.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 240px;
+    padding-bottom: 240px;
+    margin: 0%;
+}
+button{
+    border: solid 2px #ffe4b0;
+    border-radius: 10px;
+    background-color: #ffe4b0;
+    text-align: center;
+}
+
+#uniek, h1, h3{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.centertekst{
+    text-align: center;
+}
+
+#foto3{
+    height: 300px;
+    width: auto;
+}
+
+.card{
+    margin: 15px;
+}
+
+.symbool{
+    width: 30%;
+    height: auto;
+}
+
+#gifIndex{
+    height: 20rem;
+    width: auto;
+}
+
+.index__tekstcentreren{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#index__ButtonBenner{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.index__tekstbenner{
+    text-shadow: -1px -1px #ffffff;
+}

@@ -1,0 +1,322 @@
+/*Algemene kleur*/
+
+*{
+    color: #1a294b;
+}
+
+/* Lettertypes */
+
+.lettertype_moret_regular{
+    font-weight: 400;
+    font-style: normal;
+    font-family: moret, serif;
+}
+
+.lettertype_moret_small{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: moret, serif;
+}
+
+.lettertype_moret_bold{
+    font-weight: 700;
+    font-style: normal;
+    font-family: moret, serif;
+}
+
+.lettertype_moret_big{
+    font-size: 60px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: moret, serif;
+}
+
+.lettertype_lipa_big{
+    font-size:  25px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: lipa-agate-low,sans-serif;
+}
+
+.lettertype_lipa_agate_low_regular{
+    font-weight: 400;
+    font-style: normal;
+    font-family: lipa-agate-low,sans-serif;
+}
+
+.lettertype_pacifico_regular{
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    font-family: Pacifico, serif;
+}
+
+
+/*scrollbar*/
+::-webkit-scrollbar{
+    width: 10px;
+    height: 2px;
+}
+
+::-webkit-scrollbar-button{
+    border-radius: 5px;
+    background: #ffe3af;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #ffe3af;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #1a294b;
+}
+
+::-webkit-scrollbar-track{
+    background: white;
+}
+
+::-webkit-resizer{
+    background:rgba(0,0,0,0.0);
+}
+
+
+/*navbar*/
+.navbar{
+    background-color: white;
+}
+
+#navbar__links a{
+    color: #1a294b ;
+    font-weight: 600;
+}
+
+#navbar__links a:hover{
+    opacity: 80%;
+    color: #1a294b;
+}
+
+
+/*winkelwagen Leeg*/
+
+#winkelwagen__hoofdtitel{
+    padding-top: 40px;
+}
+
+#winkelwagen__kader__leeg{
+    margin: 50px;
+    border-radius: 50px;
+    background-color:#EBF4F8;
+}
+
+#winkelwagen__button__leeg{
+    width: 250px;
+    color: #725422;
+    margin-top: 20px;
+    border-width: 2px;
+    border-radius: 25px;
+    border-color: #E0C79D;
+    background-color: #FFE4B0;
+}
+
+#winkelwagen__afbeelding__kat{
+    float: left;
+    width: 670px;
+    height: auto;
+    margin-top: 50PX
+}
+
+#winkelwagen__subtext{
+    align-items: center;
+}
+
+/*winkelwagen vol*/
+
+#winkelwagen__container{
+    padding: 50px 100px 80px 100px;
+}
+
+#winkelwagen__container__gap{
+    gap: 20px;
+}
+
+#winkelwagen__kader__vol{
+    width: 100%;
+    border-radius: 50px;
+    background-color:#EBF4F8;
+}
+
+#winkelwagen__button__vol{
+    float: left;
+    width: 150px;
+    color: #725422;
+    margin: 48px 48px 80px 48px;
+    border-width: 2px;
+    border-radius: 25px;
+    border-color: #E0C79D;
+    background-color: #FFE4B0;
+}
+
+.winkelwagen__aantal__hoeveelheid__container{
+    height: 60px;
+    width: 120px;
+    border-radius: 50px;
+    background-color: white;
+    border: 1px solid #1a294b;
+}
+
+
+/*besteloverzicht*/
+
+#winkelwagen__kader__prijs{
+    border-radius: 50px;
+    background-color:#EBF4F8;
+}
+
+#winkelwagen__kortingscode{
+    width: 150px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 25px;
+    border: 2px solid #E0C79D;
+    margin: 16px 0 16px 16px;
+}
+
+#winkelwagen__kortingscode__knop{
+    border-radius: 15px;
+    background-color: #FFE4B0;
+    border: 2px solid #E0C79D;
+}
+
+#winkelwagen__lijn{
+    height: 1px;
+    width: 90%;
+    background-color: #1a294b;
+}
+
+#winkelwagen__button__bestellen{
+    margin-bottom: 50px;
+    width: 50%;
+    color: #725422;
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: #FFE4B0;
+    border: 2px solid #E0C79D;
+}
+
+/* Bestelprocedure*/
+
+#winkelwagen__button__terug{
+    float: left;
+    width: 300px;
+    color: #725422;
+    margin: 48px 48px 20px 48px;
+    border-radius: 25px;
+    border: 2px solid #E0C79D;
+    background-color: #FFE4B0;
+}
+
+.bestelprocedure__text__besteloverzicht{
+    margin: 100px 48px 20px 48px;
+}
+
+
+.bestelprocedure__totaalprijs{
+    margin: 10px;
+}
+
+#winkelwagen__afbeelding__hond{
+    width: 300px;
+    height: auto;
+    margin-top: 20PX;
+    margin-bottom: 20px;
+}
+
+.bestelprocedure__velden__kaart{
+    width: 365px;
+    border-radius: 25px;
+    background-color: white;
+    border: 1px solid #1a294b;
+}
+
+.bestelprocedure__velden__vervaldatum{
+    width: 150px;
+    border-radius: 25px;
+    background-color: white;
+    border: 1px solid #1a294b;
+}
+
+.bestelprocedure__veld__cvc{
+    width: 150px;
+    border-radius: 25px;
+    background-color: white;
+    border: 1px solid #1a294b;
+}
+
+#winkelwagen__button__betaal{
+    float: left;
+    width: 150px;
+    color: #725422;
+    border-radius: 25px;
+    border: 2px solid #E0C79D;
+    background-color: #FFE4B0;
+}
+
+
+/* Breakpoints*/
+@media screen and (max-width: 768px) {
+    /* */
+}
+
+@media screen and (max-width: 480px) {
+    /* */
+}
+
+
+/* Footer*/
+
+#footer {
+    bottom: 0;
+    margin: 0;
+    padding: 2% 0 0.10%;
+    background-color: #D8E9F1;
+}
+
+#footer form{
+    padding-top: 10px;
+}
+
+#footer__mailadres {
+    width: 15%;
+    height: 30px;
+    margin-right: 1%;
+    padding-left: 10px;
+    border-radius: 25px;
+    border: 2px solid #E0C79D;
+}
+
+#footer__button{
+    padding: 0;
+    height: 30px;
+    width: 100px;
+    color: #725422;
+    border-radius: 25px;
+    border: 2px solid #E0C79D;
+    background-color: #FFE4B0;
+}
+
+.footer__icons a{
+    margin-right: 1%;
+}
+
+#footer__media {
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+#footer__winkelwagen__lijn{
+    width: 90%;
+    height: 1px;
+    margin-top: 20px;
+    background-color: #1a294b;
+}

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script defer src="javascript/productdetails.js"></script>
+
+    <script src="bootstrap/jquery-3.5.1.min.js"></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <title>Productdetails</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+            <div class="d-flex flex-grow-1">
+                <span class="w-100 d-lg-none d-block"></span>
+                <a class="navbar-brand" href="index.html">
+                    <img class="navbar__image" src="assets/navigatiebalk__logo.png" alt="LogoAnimood" loading="lazy">
+                </a>
+                <div class="w-100 text-right navbar-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar__links">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="collapse navbar-collapse flex-grow-1 text-right lettertype__lipa__navbar" id="navbar__links">
+                <ul class="navbar-nav ml-auto flex-nowrap">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link m-2 menu-item nav-active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="productdetails.html" class="nav-link m-2 menu-item">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="overons.html" class="nav-link m-2 menu-item">Over ons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link m-2 menu-item">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="inlogpagina.html">
+                            <img src="assets/bootstrap-icons-1.8.1/person-fill.svg" width="25" height="25" alt="" loading="lazy">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="winkelwagen.html">
+                            <img src="assets/bootstrap-icons-1.8.1/cart-fill.svg" width="25" height="25" alt="winkelwagen" loading="lazy">
+                            <span class="navbar__cart">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    <main>
+        <div id="productdetails__container" class="container-fluid">
+            <div class="row">
+                <div class="col-sm">
+                    <img id="productdetails__imagehalsband" src="assets/productdetails/productdetails_hond.png" alt="Hond met de halsband van Animood">
+                </div>
+                <div class="col-md justify-content-center">
+                    <p id="productdetails__nieuwproduct" class="productdetailsp">Nieuw!</p>
+                    <h1 class="lettertype__moret__h1">Slimme halsband</h1>
+                    <div id="productdetails__starreview">
+                        <img class="productdetails__starimage" src="assets/bootstrap-icons-1.8.1/star.svg" alt="star">
+                        <img class="productdetails__starimage" src="assets/bootstrap-icons-1.8.1/star.svg" alt="star">
+                        <img class="productdetails__starimage" src="assets/bootstrap-icons-1.8.1/star.svg" alt="star">
+                        <img class="productdetails__starimage" src="assets/bootstrap-icons-1.8.1/star.svg" alt="star">
+                        <img class="productdetails__starimage" src="assets/bootstrap-icons-1.8.1/star.svg" alt="star">
+                        <p id="productdetails__reviews" class="lettertype__lipa__algemenetekst">0 reviews</p>
+                    </div>
+                    <h1 class="lettertype__moret__40">€ 69,99</h1>
+                    <div id="productdetails__productbeschrijving">
+                        <h2 class="lettertype__moret__h2">Productbeschrijving</h2>
+                        <p class="lettertype__lipa__algemenetekst">Maak kennis met onze slimme halsband voor honden en katten. Een halsband met een moodfunctie om zo te zien
+                            hoe jouw huisdier zich voelt, GPS zodat je weet waar jouw huisdier zich bevindt en meer. Dit hypermoderne
+                            toestel combineert de nieuwste technologieën met onze meest populaire functies om dierenbaasjes blijvende
+                            gemoedsrust te bieden. En dankzij onze zelfoplaadbare verlichting aan de halsband zit je huisdier nooit in het donker.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm">
+                    <div id="productdetails__extrainformatiediv">
+                        <div class="productdetails__extrainformatieproduct">
+                            <img class="productdetails__iconenextrainfoproduct" src="assets/bootstrap-icons-1.8.1/truck.svg" alt="truck">
+                            <p class="lettertype__lipa__algemenetekst">Gratis verzending vanaf € 100</p>
+                        </div>
+                        <div class="productdetails__extrainformatieproduct">
+                            <img class="productdetails__iconenextrainfoproduct" src="assets/bootstrap-icons-1.8.1/box-seam.svg" alt="box">
+                            <p class="lettertype__lipa__algemenetekst">Gratis retour</p>
+                        </div>
+                        <div class="productdetails__extrainformatieproduct">
+                            <img class="productdetails__iconenextrainfoproduct" src="assets/bootstrap-icons-1.8.1/calendar2.svg" alt="calendar">
+                            <p class="lettertype__lipa__algemenetekst">30 dagen bedenktermijn</p>
+                        </div>
+
+                        <div id="productdetails__contactinformatie">
+                            <hr>
+                            <p class="lettertype__lipa__algemenetekst">
+                                Heb je vragen over de aankoop van onze halsband?
+                                <br>
+                                <a href="contact.html">Contacteer ons.</a>
+                            </p>
+                        </div>
+
+                        <div id="productdetails__illustratiediv">
+                            <img id="productdetails__illustratie" src="assets/productdetails/productdetails_illustratie.png" alt="vrouw met 2 dieren">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm justify-content-center">
+                    <div>
+                        <div class="productdetails__productpersonalisatie">
+                            <h3>
+                                <label class="lettertype__moret__h2" for="productdetails__afmeting">Kies je afmeting (nekomvang)</label>
+                            </h3>
+                            <select class="productdetails__select lettertype__lipa__algemenetekst" name="afmeting" id="productdetails__afmeting">
+                                <option selected disabled hidden>Kies je afmeting</option>
+                                <option value="XXS| 22 - 26 cm">XXS | 22 - 26 cm</option>
+                                <option value="XS| 26 - 32 cm">XS | 26 - 32 cm</option>
+                                <option value="S| 31 - 37 cm">S | 31 - 37 cm</option>
+                                <option value="M| 36 - 44 cm">M | 36 - 44 cm</option>
+                                <option value="L| 44 - 52 cm">L | 44 - 52 cm</option>
+                                <option value="XL| 52 - 62 cm">XL | 52 - 62 cm</option>
+                            </select>
+                            <hr>
+                        </div>
+                        <div class="productdetails__productpersonalisatie">
+                            <h3>
+                                <label class="lettertype__moret__h2" for="productdetails__kleur">Kies je kleur</label>
+                            </h3>
+                            <select class="productdetails__select lettertype__lipa__algemenetekst" name="kleur" id="productdetails__kleur">
+                                <option selected disabled hidden>Kies je kleur</option>
+                                <option value="Zwart">Zwart</option>
+                                <option value="Rood">Rood</option>
+                                <option value="Blauw">Blauw</option>
+                                <option value="Geel">Geel</option>
+                                <option value="Groen">Groen</option>
+                                <option value="Roze">Roze</option>
+                                <option value="Oranje">Oranje</option>
+                                <option value="Bruin">Bruin</option>
+                                <option value="Paars">Paars</option>
+                                <option value="Wit">Wit</option>
+                            </select>
+                            <hr>
+                        </div>
+                        <div class="productdetails__productpersonalisatie">
+                            <h3>
+                                <label class="lettertype__moret__h2" for="productdetails__materiaal">Kies het materiaal</label>
+                            </h3>
+                            <select class="productdetails__select lettertype__lipa__algemenetekst" name="materiaal" id="productdetails__materiaal">
+                                <option selected disabled hidden>Kies je materiaal</option>
+                                <option value="Nylon">Nylon</option>
+                                <option value="Rubber">Rubber</option>
+                                <option value="Polyester">Polyester</option>
+                                <option value="Leer">Leer</option>
+                            </select>
+                            <hr class="productdetails__hr">
+                        </div>
+                        <div class="productdetails__productpersonalisatie">
+                            <h2 class="lettertype__moret__h2">Optionele strips</h2>
+                            <div id="productdetails__divbutton">
+                                <button class="productdetails__disabledbuttons" disabled>Koelband</button>
+                                <button class="productdetails__disabledbuttons" disabled>Antivlooien en -tekenband</button>
+                            </div>
+                            <hr id="productdetails__hrbanden">
+                        </div>
+                        <div id="productdetails__winkelwagenbutton">
+                            <button id="productdetails__toevoegenwinkelwagen" class="productdetails__buttons lettertype__lipa__algemenetekst">In winkelwagen plaatsen</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="footer__kleur">
+        <footer id="footer" class="text-center container-fluid">
+            <h1 class="lettertype__moret__40">Meld u aan voor de Animood-nieuwsbrief</h1>
+            <p class="lettertype__lipa__algemenetekst">Word lid van ons pakket voor geweldige updates. Krijg kortingen en tips voor ouders van huisdieren!</p>
+            <form id="footer__form">
+                <label for="footer__mailadres"></label>
+                <input class="footer__input lettertype__lipa__algemenetekst" type="email" name="mailadres" id="footer__mailadres" value="E-mailadres">
+                <button class="footer__input lettertype__lipa__algemenetekst footer__button">Abonneer</button>
+            </form>
+            <div id="footer__socialmediadiv" class="lettertype__pacifico_socialmedia">
+                <p class="footer__p" id="footer__socialmedia">Follow us on social media!</p>
+                <a class="footer__a__icons" href="https://www.facebook.com/"><img class="footer__icons" src="assets/bootstrap-icons-1.8.1/facebook.svg" alt="Icoon Facebook"></a>
+                <a class="footer__a__icons" href="https://www.instagram.com/animood4care/"><img class="footer__icons" src="assets/bootstrap-icons-1.8.1/instagram.svg" alt="Icoon Instagram"></a>
+                <a class="footer__a__icons" href="https://nl.linkedin.com/"><img class="footer__icons" src="assets/bootstrap-icons-1.8.1/linkedin.svg" alt="Icoon Linkedin"></a>
+                <a class="footer__a__icons" id="footer__a__twitter" href="https://twitter.com/?lang=nl"><img class="footer__icons" src="assets/bootstrap-icons-1.8.1/twitter.svg" alt="Icoon Twitter"></a>
+            </div>
+            <hr>
+            <p class="footer__p lettertype__lipa__algemenetekst">
+                Elfde-liniestraat 24, 3500 Hasselt <br>
+                tel. 011 77 55 55 <br>
+                animood4care@gmail.com
+            </p>
+            <p class="footer__p lettertype__lipa__14">© 2022 Animood. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>

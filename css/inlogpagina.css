@@ -1,0 +1,80 @@
+
+/* v professionele code v */
+#inlog__main h1 {
+    margin-bottom: 5%;
+}
+input.inlog__inputs{
+    margin-bottom: 20px; /*tussen in*/
+    border-radius: 10px;
+    width: 250px;
+    background-color: #1a294b;
+    opacity: 50%;
+    color: #fff;
+}
+input.inlog__buttons {
+    background-color: #ffe3af;
+    color: #000;
+    opacity: 100%;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    transition-duration: 0.4s;
+    padding: 5px;
+}
+input.inlog__buttons:hover {
+    background-color: #fec652;
+}
+div#login {
+    border-right: 1px solid #000;
+    background-image: url("../assets/inlog/AchtergrondAanmelden.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+div#registreer {
+    border-left: 1px solid #000;
+    background-image: url("../assets/inlog/AchtergrondRegistreren.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 10%;
+}
+@media screen and (max-width: 990px) {
+    div#login, div#registreer {
+        background-image: none;
+    }
+}
+@media screen and (max-width: 600px){
+    div#login {
+        border: none;
+        background-image: url("../assets/inlog/AchtergrondAanmelden.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-bottom: 10%;
+        padding-top: 10%;
+    }
+    div#registreer {
+        border: none;
+        background-image: url("../assets/inlog/AchtergrondRegistreren.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #registreer {
+        margin-top: 20%;
+    }
+}
+@media screen and (max-width: 300px){
+    div#login {
+        background-image: none;
+    }
+    div#registreer {
+        background-image: none;
+    }
+}
+@media screen and (max-width: 767px) {
+    div#login, div#registreer {
+        border: none;
+    }
+}

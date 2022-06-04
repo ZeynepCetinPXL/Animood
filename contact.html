@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/xrl4jyf.css">
+
+    <script src="javascript/winkelwagen.js" async></script>
+
+    <script src="bootstrap/jquery-3.5.1.min.js"></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg">
+    <div class="d-flex flex-grow-1">
+        <span class="w-100 d-lg-none d-block"></span>
+        <a class="navbar-brand" href="index.html">
+            <img class="navbar__image" src="assets/navigatiebalk__logo.png" alt="LogoAnimood" loading="lazy">
+        </a>
+        <div class="w-100 text-right navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar__links" id="navbar__toggle">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </div>
+
+    <div class="collapse navbar-collapse flex-grow-1 text-right lettertype__lipa__navbar" id="navbar__links">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link m-2 menu-item nav-active">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="productdetails.html" class="nav-link m-2 menu-item">Product</a>
+            </li>
+            <li class="nav-item">
+                <a href="overons.html" class="nav-link m-2 menu-item">Over ons</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link m-2 menu-item">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="navbar-brand" href="inlogpagina.html">
+                    <img src="assets/bootstrap-icons-1.8.1/person-fill.svg" width="25" height="25" alt="" loading="lazy">
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="navbar-brand" href="winkelwagen.html">
+                    <img src="assets/bootstrap-icons-1.8.1/cart-fill.svg" width="25" height="25" alt="winkelwagen" loading="lazy">
+                    <span class="navbar__cart">0</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div id="contact__main">
+<!--content-->
+<header class="container-fluid text-center">
+    <h1 class="lettertype__moret__h1">Contacteer ons</h1>
+    <p class="lettertype__lipa__algemenetekst">Heeft u vragen over één van onze producten? Contacteer ons via het
+        onderstaande formulier of via onderstaande gegevens.</p>
+    <hr>
+</header>
+<main class="container-fluid">
+    <div class="row" id="contact__volledigemainpagina">
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <form class="justify-content-center" action="mailto:animood4care@gmail.com" method="post" enctype="text/plain">
+                <label class="contact__labels lettertype__lipa__algemenetekst" for="mail">E-mailadres</label>
+                <input class="contact__labels lettertype__lipa__algemenetekst contact__input" type="email" name="emailadres" id="mail" required>
+                <label class="contact__labels lettertype__lipa__algemenetekst" for="onderwerp">Onderwerp</label>
+                <input class="contact__labels lettertype__lipa__algemenetekst contact__input" type="text" name="onderwerp" id="onderwerp" required>
+                <label class="contact__labels lettertype__lipa__algemenetekst" for="contact__textarea">Bericht</label>
+                <textarea class="contact__labels lettertype__lipa__algemenetekst" name="Bericht" id="contact__textarea" wrap="hard" required></textarea>
+                <input class="contact__labels lettertype__lipa__algemenetekst" type="submit" value="Verzenden" id="contact__contactbutton">
+            </form>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <div class="col-md" id="contact__gegevens">
+                <div class="contact__icoon">
+                    <img src="assets/bootstrap-icons-1.8.1/geo-alt-fill.svg" width="25px" alt="pin icoon"
+                         class="contact__gegevensiconen">
+                    <p class="lettertype__lipa__algemenetekst">Elfde-Liniestraat 24 3500 Hasselt</p>
+                </div>
+                <div class="contact__icoon">
+                    <img src="assets/bootstrap-icons-1.8.1/telephone-fill.svg" width="25px" alt="telefoon icoon"
+                         class="contact__gegevensiconen">
+                    <p class="lettertype__lipa__algemenetekst">011 77 55 55</p>
+                </div>
+                <div class="contact__icoon">
+                    <img src="assets/bootstrap-icons-1.8.1/envelope-fill.svg" width="25px" alt="envelope icoon"
+                         class="contact__gegevensiconen">
+                    <p class="lettertype__lipa__algemenetekst">animood4care@gmail.com</p>
+                </div>
+                <div>
+                <hr id="contact__lijn__onder__contactgegevens">
+                <p class="lettertype__pacifico_socialmedia" id="contact__folowus_responsivehidden">Follow us on social media!</p>
+                <a href="https://www.facebook.com/"><img src="assets/bootstrap-icons-1.8.1/facebook.svg" width="30px" alt="facebook icoon" class="contact__socialemediaiconen"></a>
+                <a href="https://www.instagram.com/animood4care/"><img src="assets/bootstrap-icons-1.8.1/instagram.svg" width="30px" alt="instagram icoon" class="contact__socialemediaiconen"></a>
+                <a href="https://nl.linkedin.com/"><img src="assets/bootstrap-icons-1.8.1/linkedin.svg" width="30px" alt="linkedin icoon" class="contact__socialemediaiconen"></a>
+                <a href="https://twitter.com/"><img src="assets/bootstrap-icons-1.8.1/twitter.svg" width="30px" alt="twitter icoon" class="contact__socialemediaiconen"></a>
+            </div>
+            </div>
+        </div>
+    </div>
+<!--    <img src="./foto/PersonWalking.png" class="img-fluid" id="contact__bgimage">-->
+</main>
+</div>
+
+<div id="footer__kleur">
+    <footer id="footer" class="text-center container-fluid">
+        <h1 id="footer__h1" class="lettertype__moret__40">Meld u aan voor de Animood-nieuwsbrief</h1>
+        <p class="lettertype__lipa__algemenetekst">Word lid van ons pakket voor geweldige updates. Krijg kortingen en tips voor ouders van huisdieren!</p>
+        <form id="footer__form">
+            <label for="footer__mailadres"></label>
+            <input class="footer__input lettertype__lipa__algemenetekst" type="email" name="mailadres" id="footer__mailadres" value="E-mailadres">
+            <button class="footer__input lettertype__lipa__algemenetekst">Abonneer</button>
+        </form>
+        <div id="footer__socialmediadiv" class="lettertype__pacifico_socialmedia">
+            <p class="footer__p" id="footer__socialmedia">Follow us on social media!</p>
+            <a class="footer__a__icons" href="https://www.facebook.com/"><img class="footer__icons" src="assets/bootstrap-icons-1.8.1/facebook.svg" alt="Icoon Facebook"></a>
+            <a class="footer__a__icons" href="https://www.instagram.com/animood4care/"><img class="footer__icons" src="assets/bootstrap-icons-1.8.1/instagram.svg" alt="Icoon Instagram"></a>
+            <a class="footer__a__icons" href="https://nl.linkedin.com/"><img class="footer__icons" src="assets/bootstrap-icons-1.8.1/linkedin.svg" alt="Icoon Linkedin"></a>
+            <a class="footer__a__icons" id="footer__a__twitter" href="https://twitter.com/?lang=nl"><img class="footer__icons" src="assets/bootstrap-icons-1.8.1/twitter.svg" alt="Icoon Twitter"></a>
+        </div>
+        <hr>
+        <p class="footer__p lettertype__lipa__algemenetekst">
+            Elfde-liniestraat 24, 3500 Hasselt <br>
+            tel. 011 77 55 55 <br>
+            animood4care@gmail.com
+        </p>
+        <p class="footer__p lettertype__lipa__14">© 2022 Animood. All rights reserved.</p>
+    </footer>
+</div>
+
+</body>
+</html>
