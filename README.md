@@ -12,4 +12,8 @@ We zijn niet verantwoordelijk voor iets dat gebeurt wanneer u deze website gebru
 
 De visuele vorm van de website kunt u zien bij -Visual representation.md-
 
-Verdere info kunt u via deze links terugvinden: https://www.notion.so/Animood-9ba9652e53404bf8ac4e77ec88c8eab3
+# Notion
+https://www.notion.so/Animood-9ba9652e53404bf8ac4e77ec88c8eab3
+
+# Wireframes
+https://xd.adobe.com/view/c216756e-20e4-4dcf-bdea-5e4d9c8ef610-9745/
