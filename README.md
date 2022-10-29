@@ -10,4 +10,4 @@ We zijn een groep van 5 die samen zijn gekomen om een geweldige applicatie te ku
 # Disclaimer
 We zijn niet verantwoordelijk voor iets dat gebeurt wanneer u deze website gebruikt.
 
-De visuele vorm van de website kunt u zien bij -Visual representation-
+De visuele vorm van de website kunt u zien bij -Visual representation.md-
