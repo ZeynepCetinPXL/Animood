@@ -11,3 +11,5 @@ We zijn een groep van 5 die samen zijn gekomen om een geweldige applicatie te ku
 We zijn niet verantwoordelijk voor iets dat gebeurt wanneer u deze website gebruikt.
 
 De visuele vorm van de website kunt u zien bij -Visual representation.md-
+
+Verdere info kunt u via deze links terugvinden: https://www.notion.so/Daily-standups-0dfe80ba6c5d4527b033b4acc77949fc
