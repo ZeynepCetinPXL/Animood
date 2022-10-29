@@ -1,3 +1,6 @@
+Here you can find everything about the project: https://www.notion.so/Animood-9ba9652e53404bf8ac4e77ec88c8eab3
+
+
 - Homepagina 
 
 ![Homepagina](https://user-images.githubusercontent.com/57445093/198830206-676c8dc8-ff1f-434d-91d7-88bf6ec9d38a.png)
